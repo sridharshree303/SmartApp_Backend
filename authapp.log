@@ -1,0 +1,78 @@
+2022-10-13 10:29:49.153  INFO 7240 --- [restartedMain] com.cg.pravin.SmartApplication           : Starting SmartApplication using Java 16.0.2 on LIN76005291 with PID 7240 (C:\Users\kosridha\Desktop\Learningpath\Spring\pravin\target\classes started by kosridha in C:\Users\kosridha\Desktop\Learningpath\Spring\pravin)
+2022-10-13 10:29:49.160  INFO 7240 --- [restartedMain] com.cg.pravin.SmartApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-10-13 10:29:49.226  INFO 7240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-13 10:29:49.226  INFO 7240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-13 10:29:50.066  INFO 7240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 10:29:50.136  INFO 7240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2022-10-13 10:29:51.026  INFO 7240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-13 10:29:51.040  INFO 7240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-13 10:29:51.041  INFO 7240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-10-13 10:29:51.154  INFO 7240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-13 10:29:51.155  INFO 7240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1928 ms
+2022-10-13 10:29:51.342  INFO 7240 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 10:29:51.425  INFO 7240 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-10-13 10:29:51.674  INFO 7240 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-13 10:29:51.840  INFO 7240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-13 10:29:52.238  INFO 7240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-13 10:29:52.271  INFO 7240 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-13 10:29:53.191  INFO 7240 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 10:29:53.202  INFO 7240 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 10:29:53.868  WARN 7240 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 10:29:54.296  INFO 7240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-13 10:29:54.342  INFO 7240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-13 10:29:54.352  INFO 7240 --- [restartedMain] com.cg.pravin.SmartApplication           : Started SmartApplication in 5.677 seconds (JVM running for 7.061)
+2022-10-13 10:31:03.913  INFO 7240 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-13 10:31:03.914  INFO 7240 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-13 10:31:03.923  INFO 7240 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-10-13 10:31:04.026  INFO 7240 --- [http-nio-8082-exec-2] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:31:04.026  INFO 7240 --- [http-nio-8082-exec-1] c.c.p.controller.NavbarMenuController    : getAll Navs Controller
+2022-10-13 10:31:04.027  INFO 7240 --- [http-nio-8082-exec-2] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:33:25.771  INFO 7240 --- [http-nio-8082-exec-5] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:33:25.771  INFO 7240 --- [http-nio-8082-exec-5] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:33:41.938  INFO 7240 --- [http-nio-8082-exec-7] c.c.p.controller.EmployeeController      : Login controller
+2022-10-13 10:33:41.938  INFO 7240 --- [http-nio-8082-exec-7] c.c.pravin.services.EmployeeServiceimpl  : Login Service
+2022-10-13 10:33:41.992  INFO 7240 --- [http-nio-8082-exec-7] c.c.pravin.services.EmployeeServiceimpl  : Data found
+2022-10-13 10:33:41.992  INFO 7240 --- [http-nio-8082-exec-7] c.c.p.controller.EmployeeController      : response returned
+2022-10-13 10:33:42.011  INFO 7240 --- [http-nio-8082-exec-8] c.c.p.controller.NavbarMenuController    : getAll Navs Controller
+2022-10-13 10:33:44.220  INFO 7240 --- [http-nio-8082-exec-9] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:33:44.220  INFO 7240 --- [http-nio-8082-exec-9] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:33:49.177  INFO 7240 --- [http-nio-8082-exec-2] c.c.p.controller.EmployeeController      : Logout Controller
+2022-10-13 10:33:49.177  INFO 7240 --- [http-nio-8082-exec-2] c.c.pravin.services.EmployeeServiceimpl  : LogOut Service
+2022-10-13 10:33:49.181  INFO 7240 --- [http-nio-8082-exec-2] c.c.pravin.services.EmployeeServiceimpl  : Session Closed
+2022-10-13 10:33:49.181  INFO 7240 --- [http-nio-8082-exec-2] c.c.p.controller.EmployeeController      : Logout Successfull
+2022-10-13 10:33:49.699  INFO 7240 --- [http-nio-8082-exec-1] c.c.p.controller.NavbarMenuController    : getAll Navs Controller
+2022-10-13 10:33:49.699  INFO 7240 --- [http-nio-8082-exec-4] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:33:49.699  INFO 7240 --- [http-nio-8082-exec-4] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:34:30.474  INFO 7240 --- [http-nio-8082-exec-5] c.c.p.controller.EmployeeController      : register employee controller
+2022-10-13 10:34:30.474  INFO 7240 --- [http-nio-8082-exec-5] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:34:30.482  INFO 7240 --- [http-nio-8082-exec-5] c.c.pravin.services.EmployeeServiceimpl  : ID assigned
+2022-10-13 10:34:30.482  INFO 7240 --- [http-nio-8082-exec-5] c.c.p.controller.EmployeeController      : response returned
+2022-10-13 10:34:40.706  INFO 7240 --- [http-nio-8082-exec-6] c.c.p.controller.EmployeeController      : Login controller
+2022-10-13 10:34:40.706  INFO 7240 --- [http-nio-8082-exec-6] c.c.pravin.services.EmployeeServiceimpl  : Login Service
+2022-10-13 10:34:40.715  INFO 7240 --- [http-nio-8082-exec-6] c.c.pravin.services.EmployeeServiceimpl  : Data found
+2022-10-13 10:34:40.715  INFO 7240 --- [http-nio-8082-exec-6] c.c.p.controller.EmployeeController      : response returned
+2022-10-13 10:34:40.723  INFO 7240 --- [http-nio-8082-exec-7] c.c.p.controller.NavbarMenuController    : getAll Navs Controller
+2022-10-13 10:34:44.041  INFO 7240 --- [http-nio-8082-exec-8] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:34:44.041  INFO 7240 --- [http-nio-8082-exec-8] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:35:13.267  INFO 7240 --- [http-nio-8082-exec-10] c.c.p.controller.EmployeeController      : Logout Controller
+2022-10-13 10:35:13.275  INFO 7240 --- [http-nio-8082-exec-10] c.c.pravin.services.EmployeeServiceimpl  : LogOut Service
+2022-10-13 10:35:13.287  INFO 7240 --- [http-nio-8082-exec-10] c.c.pravin.services.EmployeeServiceimpl  : Session Closed
+2022-10-13 10:35:13.287  INFO 7240 --- [http-nio-8082-exec-10] c.c.p.controller.EmployeeController      : Logout Successfull
+2022-10-13 10:35:13.821  INFO 7240 --- [http-nio-8082-exec-2] c.c.p.controller.NavbarMenuController    : getAll Navs Controller
+2022-10-13 10:35:13.821  INFO 7240 --- [http-nio-8082-exec-1] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:35:13.825  INFO 7240 --- [http-nio-8082-exec-1] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:35:45.928  INFO 7240 --- [http-nio-8082-exec-4] c.c.p.controller.EmployeeController      : register employee controller
+2022-10-13 10:35:45.928  INFO 7240 --- [http-nio-8082-exec-4] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:35:45.928  INFO 7240 --- [http-nio-8082-exec-4] c.c.pravin.services.EmployeeServiceimpl  : ID assigned
+2022-10-13 10:35:45.936  INFO 7240 --- [http-nio-8082-exec-4] c.c.p.controller.EmployeeController      : response returned
+2022-10-13 10:35:53.415  INFO 7240 --- [http-nio-8082-exec-3] c.c.p.controller.EmployeeController      : Login controller
+2022-10-13 10:35:53.416  INFO 7240 --- [http-nio-8082-exec-3] c.c.pravin.services.EmployeeServiceimpl  : Login Service
+2022-10-13 10:35:53.417  INFO 7240 --- [http-nio-8082-exec-3] c.c.pravin.services.EmployeeServiceimpl  : Data found
+2022-10-13 10:35:53.417  INFO 7240 --- [http-nio-8082-exec-3] c.c.p.controller.EmployeeController      : response returned
+2022-10-13 10:35:53.431  INFO 7240 --- [http-nio-8082-exec-5] c.c.p.controller.NavbarMenuController    : getAll Navs Controller
+2022-10-13 10:37:18.103  INFO 7240 --- [http-nio-8082-exec-8] c.c.p.controller.EmployeeController      : Employee Controller
+2022-10-13 10:37:18.103  INFO 7240 --- [http-nio-8082-exec-8] c.c.pravin.services.EmployeeServiceimpl  : Register service
+2022-10-13 10:47:51.956  INFO 7240 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-13 10:47:51.996  INFO 7240 --- [RMI TCP Connection(20)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 10:47:52.001  INFO 7240 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-13 10:47:52.013  INFO 7240 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
